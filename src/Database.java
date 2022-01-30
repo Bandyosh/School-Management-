@@ -7,8 +7,8 @@ public class Database {
 
         try {
 
-            String url = "jdbc:mysql://localhost:3306/demo";
-            connection = DriverManager.getConnection(url, "newuser1", "han7dle6");
+            String url = "jdbc:mysql://localhost:3306/workspace";
+            connection = DriverManager.getConnection(url, "user", "password");
             myStmt = connection.createStatement();
 
         } catch (Exception e){
